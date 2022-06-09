@@ -14,3 +14,6 @@ print(lst)
 
 # To count the number of times a no occur in the list
 print(lst.count(3))
+
+#to find all the functions in class list
+print(dir(list))

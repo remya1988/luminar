@@ -17,3 +17,4 @@ while (p1 < len(lst1) and p2 < len(lst2)):
         p2 += 1
     elif lst1[p1] < lst2[p2]:
         p1 += 1
+

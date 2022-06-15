@@ -10,3 +10,11 @@ account["balance"] = 40000
 print(account)
 account["balance"] += 10000
 print(account)
+print(account.get("acno"))
+print(account["acno"])
+print(account.get("type"))
+
+
+account["branch"] = "ALPY" if "branch" in account else "Idukki"
+
+print(account)

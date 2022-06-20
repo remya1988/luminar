@@ -16,6 +16,7 @@ diff = st1.difference(st2) # remove elements in set1 that also in set2.. in this
 print(diff)
 st3 = {300,200,100}
 st1.update(st3)
+
 print("Updated set1 : ",st3)
 
 students = ["ram","raj","ravi","agn","jyo","tanvi"]
@@ -26,3 +27,4 @@ failed_std= std_all.difference(pass_std)
 f = std_all - pass_std
 print("Failed : ",f)
 print("Failed students are : ",failed_std)
+print(len(failed_std))

@@ -1,0 +1,3 @@
+name1,samsung,50000,5g
+name2,vivo,40000,5g
+name3,samsung,55000,5g

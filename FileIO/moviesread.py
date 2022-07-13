@@ -9,7 +9,7 @@ for mo in movopen:
     movlst.append(mov)
 
 # Print movies released in 2022
-mov_2022 = [mo for mo in movlst if mo[1] == str(2022)]
+mov_2022 = [mo for mo in movlst if mo[1] == '2022']
 print(len(mov_2022), mov_2022)
 
 # Number malayalam movies
@@ -21,7 +21,7 @@ mov_theatre = [mo for mo in movlst if mo[4] == 'theater']
 print(len(mov_theatre), mov_theatre)
 
 # List of movies whose rating > 5
-mov_rating = [mo for mo in movlst if mo[2] == str(5)]
+mov_rating = [mo for mo in movlst if mo[2] == '5']
 print(len(mov_rating), mov_rating)
 
 # {2022:,4,2021:6,2020:2}
@@ -33,3 +33,5 @@ for mo in mod:
     else:
         mov_dict[year] =1
 print(mov_dict)
+out = max(mov_dict.items(),key=lambda item:item[1])
+print(out)

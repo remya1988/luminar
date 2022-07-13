@@ -17,8 +17,10 @@ print("First : ", rec_char[0])
 print("Second : ", rec_char[1])
 
 print(char_cout)
-max_no = []
-for ch in char_cout:
-    max_no.append(char_cout[ch])
-print("Most recursive element is : ",max(max_no))
+# max_no = []
+# for ch in char_cout:
+#     max_no.append(char_cout[ch])
+# print("Most recursive element is : ",max(max_no))
+print(max(char_cout.items(),key=lambda it:it[1]))
+
 
